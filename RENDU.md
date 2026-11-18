@@ -55,11 +55,13 @@
 ## Exercice 5 — Scaling & mises à jour
 
 9. Sur quels nœuds se trouvent vos 3 réplicas ? Collez la sortie de `kubectl get pods -l app=site -o wide`.
-   ```Les noeuds se trouvent dans k3d-lab-agent-1, k3d-lab-server-0 et k3d-lab-agent-0
+````
+Les noeuds se trouvent dans k3d-lab-agent-1, k3d-lab-server-0 et k3d-lab-agent-0
 NAME                   READY   STATUS              RESTARTS   AGE    IP          NODE               NOMINATED NODE   READINESS GATES
 site-75775484b-cjn6q   0/1     ContainerCreating   0          1s     <none>      k3d-lab-agent-1    <none>           <none>
 site-75775484b-glszv   0/1     ContainerCreating   0          1s     <none>      k3d-lab-server-0   <none>           <none>
-site-75775484b-hdr5b   1/1     Running             0          6m8s   10.42.0.7   k3d-lab-agent-0    <none>           <none> ```
+site-75775484b-hdr5b   1/1     Running             0          6m8s   10.42.0.7   k3d-lab-agent-0    <none>           <none>
+````
 
 
 10. Avec l'image `nginx:9.99`, quel statut avait le pod ? Quelle commande vous a donné la cause ?
