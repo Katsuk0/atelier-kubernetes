@@ -14,7 +14,7 @@ data:
       </head>
       <body>
         <h1>Bienvenue sur mon site Kubernetes</h1>
-        <p>William LY I3 RS2</p>
+        <p>William LY I3 RS2 (modification du texte)</p>
         <p>Déployé avec Nginx et une ConfigMap.</p>
       </body>
     </html>
