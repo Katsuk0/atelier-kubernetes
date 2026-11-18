@@ -85,4 +85,4 @@ site-75775484b-hdr5b   1/1     Running             0          6m8s   10.42.0.7  
 
 ---
 
-**Score obtenu avec `./scripts/check.sh` :** ... / ...
+**Score obtenu avec `./scripts/check.sh` :** Score : 15 / 18  (l'exercice 3 n'est pas vérifiable automatiquement)
