@@ -5,14 +5,16 @@ kind: ConfigMap
 metadata:
   name: site-html
 data:
-  # Chaque clé devient un fichier quand la ConfigMap est montée comme volume.
   index.html: |
     <!doctype html>
     <html lang="fr">
-      <head><meta charset="utf-8"><title>Mon site sur Kubernetes</title></head>
+      <head>
+        <meta charset="utf-8">
+        <title>Mon site Kubernetes</title>
+      </head>
       <body>
-        <h1>Bienvenue sur mon site</h1>
-        <!-- TODO : personnalisez la page (votre nom, votre groupe...) -->
-        <p>Servi par Kubernetes.</p>
+        <h1>Bienvenue sur mon site Kubernetes</h1>
+        <p>William LY I3 RS2</p>
+        <p>Déployé avec Nginx et une ConfigMap.</p>
       </body>
     </html>
